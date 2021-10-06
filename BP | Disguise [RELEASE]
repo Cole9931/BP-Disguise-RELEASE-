@@ -1,0 +1,14 @@
+local args = {
+        [1] = 42,
+        [2] = true
+    }
+    game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+    wait()
+local args = {
+        [1] = 42,
+        [2] = true
+    }
+    game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+    wait()
+    
+    -- I made it diguising twice because there is a common chance that you can get the same skin twice in a row --
